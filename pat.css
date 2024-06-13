@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    max-width: 100vw;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 924px;
+    margin-inline: auto;
+    padding-block: 32px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 2rem;
+}
+
+.logo p {
+    color: black;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 15px;
+}
+
+.navbar ul li .link-download {
+    color: white;
+    background: rgb(87, 163, 255);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+    background-image: url(ASSETS/bg.jpg);
+    color: white;
+}
+
+.hero-section p:nth-of-type(1) {
+    font-size: 46px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 32px;
+    line-height: 60px;
+}
+
+.hero-section p:nth-of-type(2) {
+    text-align: center;
+    margin-bottom: 32px;
+    color: rgb(189, 189, 189);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.hero-section a {
+    color: white;
+    background: rgb(87, 163, 255);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.hero-section p:nth-of-type(3) {
+    font-size: 13px;
+    color: rgb(189, 189, 189);
+}
+
+.pricing {
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.pricing .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* FAQ PERTAMA */
+.faq {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.faq-image-1 img {
+    width: 800px;
+    align-items: center;
+    margin-left: -55px;
+}
+
+.container-text-faq h2 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.container-text-faq {
+    margin-left: 20px;
+    margin-bottom: 205px;
+}
+
+.container-text-faq p {
+    color: rgb(27, 27, 27);
+    font-size: 17px;
+}
+
+.container-text-faq .p1 {
+    margin-top: 30px;
+}
+
+/* FAQ KEDUA */
+.faq-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    overflow-x: hidden;
+}
+
+.faq-image-2 img {
+    width: 800px;
+    align-items: center;
+    margin-right: -48px;
+}
+
+.container-text-faq-2 {
+    margin-left: 200px;
+    margin-bottom: 300px;
+}
+
+.container-text-faq-2 h2 {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.container-text-faq-2 p {
+    margin-top: 20px;
+    color: rgb(27, 27, 27);
+    font-size: 17px;
+}
+
+/* FAQ KETIGA */
+.faq-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.faq-image-3 img {
+    width: 800px;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.container-text-faq-3 {
+    margin-left: 20px;
+    margin-bottom: 240px;
+}
+
+.container-text-faq-3 h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.container-text-faq-3 p {
+    font-size: 17px;
+    color: rgb(27, 27, 27);
+}
+
+.p-3 {
+    margin-top: 40px;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.text-container h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.text-container p {
+    margin-top: 10px;
+}
+
+.container-img-blog {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-img {
+    display: flex;
+    padding: 10px;
+    min-width: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img img {
+    margin-top: 100px;
+    width: 50px;
+    display: flex;
+    height: auto;  
+}
+
+.card-img h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-img p {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container-image-blog {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-cowork {
+    width: 100%;
+    padding: 145px 0;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url(ASSETS/cowork-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%;
+    background-attachment: fixed;
+    margin-top: 200px;
+}
+
+
+.container-cowork h1 {
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-size: 42px;
+}
+
+.container-cowork p {
+    color: rgb(189, 189, 189);
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+.two-button {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button-buy a {
+    background-color: #2889ff;
+    color: white;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.button-explore a {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.button-explore a:hover {
+    background-color: white;
+    border: 2px solid #fff;
+    color: black;
+} 
+
+footer {
+    background-color: black;
+}
+
+.container-text {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.product {
+    color: #fff;
+    padding: 100px;
+    justify-content: center;
+}
+
+.support {
+    color: #fff;
+    padding: 100px;
+    justify-content: center;
+}
+
+.resources {
+    color: #fff;
+    padding: 100px;
+    justify-content: center;
+}
+
+.company {
+    color: #fff;
+    padding: 100px;
+    justify-content: center;
+}
+
+footer .container-text ul li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+footer .container-text ul li a {
+    color: grey;
+    transition: 1s;
+}
+
+footer .container-text ul li a:hover {
+    color: white;
+}
+
+.logoo {
+    text-align: center;
+    padding: 40px;
+}
+
+.logoo img {
+    width: 30px;
+    margin-top: 20px;
+}
+
+.logoo p {
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 20px 0px;
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .navbar ul li .link-download {
+        display: none;
+    }
+
+    .navbar ul {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .hero-section {
+        padding: 90px 20px;
+    }
+        
+    .hero-section p:nth-of-type(1) {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .pricing {
+        text-align: center;
+        padding: 50px 30px;
+    }
+
+    .pricing h2 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .pricing .images {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        margin-top: 100px;
+    }
+
+    .faq-image-1 img {
+        width: 350px;
+        margin-left: 15px;
+    }
+
+    .faq {
+        flex-direction: column;
+    }
+
+    .container-text-faq h2 {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 1.4;
+        margin-left: 30px;
+    }
+
+    .container-text-faq p {
+        font-size: 15px;
+        margin: 20px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+
+    .faq-2 {
+        flex-direction: column;
+    }
+
+    .container-text-faq-2 p {
+        font-size: 15px;
+    }
+
+    .container-text-faq-2 {
+        margin-right: 250px;
+    }
+
+    .container-text-faq-2 h2 {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 1.4;
+    }
+
+    .faq-image-2 img {
+        width: 350px;
+        align-items: center;
+        margin-top: -300px;
+    }
+
+    .faq-3 {
+        flex-direction: column;
+    }
+
+    .faq-image-3 img {
+        width: 350px;
+        margin-left: 30px;
+        margin-top: -40px;
+    }
+
+    .container-text-faq-3 h2 {
+        font-size: 32px;
+        margin-left: 40px;
+    }
+
+    .container-text-faq-3 p {
+        font-size: 15px;
+        margin-left: 40px;
+        
+    }
+
+    .text-container h1 {
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .text-container p {
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .container-image-blog {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-text {
+        font-size: 14px;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .product {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .support {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .resources {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .company {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .logoo {
+        margin-top: 300px;
+    }
+
+    .card-img img {
+        margin-top: 40px;
+        width: 50px;
+        display: flex;
+        height: auto;  
+    }
+}
+
+
